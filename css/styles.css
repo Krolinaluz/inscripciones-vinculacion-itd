@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.nav-item{
+    font-weight: 500;
+}
+
+.main-content-index{
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+/* .main-message-index{
+    width: 40%;
+    background: #002f6c; 
+} */
+
+.texto{
+    
+    background-color: aquamarine;
+}
+
+.name-line{
+    background-color: rgba(110,24,63,255);
+    font-family: "Hind";
+}
+.name-line h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    
+    letter-spacing: 20px;
+    font-weight: 400;
+    font-size: x-large;
+    
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.carousel{
+    width: 100%;
+    padding: 20;
+    
+}
+.main-content-curses .main-cursos .categorias{
+    width: 50%;
+}
+
+/* Responsive */
+@media screen and (max-width: 1920px) {
+    .name-line h1{
+        letter-spacing: 15px;
+        font-weight: 400;
+        font-size: larger;
+    }
+ 
+}
+/*portatil promedio 1440*900 y 1366*768 */
+@media screen and (max-width: 1440px) {
+    .name-line h1{
+        letter-spacing: 10px;
+        font-weight: 400;
+        font-size: large;
+    }
+    
+
+}
+
+/*Movil grande 720*1280 */
+@media screen and (max-width: 950px) {
+    .name-line h1{
+        letter-spacing: 8px;
+        font-weight: 400;
+        font-size: small;
+    
+    }
+  
+    .main-content-curses .main-cursos .categorias{
+        display: list-item block;
+    }
+    
+   
+}
+/* movil  mediado 560*640 aprox.*/
+@media screen and (max-width: 560px) {
+    .name-line h1{
+        letter-spacing: 5px;
+        font-weight: 300;
+        font-size: 8px;
+    
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+}
+/* movil pequeño y mediado 360*640 y 375*667 aprox.*/
+@media screen and (max-width: 375px) {
+    .name-line h1{
+        letter-spacing: 5px;
+        font-weight: 300;
+        font-size: 8px;
+    
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+
+}
