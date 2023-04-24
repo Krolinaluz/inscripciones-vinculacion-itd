@@ -8,7 +8,7 @@
 <?php //Cuerpo de seccion: Inicio?>
 <main>
 
-    <section class="main-content-index d-flex justify-content-between">
+    <section class="main-content-index d-flex justify-content-between" style="margin-top: 95px;" >
         <!-- promo slider start -->
         <div id="index-slider" class="carousel slide" data-bs-ride="carousel"> 
                 <div class="carousel-indicators">

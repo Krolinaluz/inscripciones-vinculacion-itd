@@ -7,7 +7,9 @@
 ?>
 <?php //Cuerpo de seccion: Inicio?>
 <main>
- 
+    <section class="main-content-students" style="margin-top: 120px;" >
+    
+    </section>
 </main>
 <?php //Cuerpo de seccion: Final?>
 <?php

@@ -2,28 +2,80 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-item{
     font-weight: 500;
+    
 }
 
 .main-content-index{
     margin: 0;
     padding-bottom: 10px;
 }
-
-/* .main-message-index{
-    width: 40%;
-    background: #002f6c; 
-} */
-
-.texto{
-    
-    background-color: aquamarine;
+.content-about{
+    padding: 60px 0;
+    width: 100%;
+    margin: auto;
+    max-width: 90vw;
+    overflow: hidden;
+   
 }
+
+
+.main-content-about{
+    width: 100%;
+    height: 600px;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 17%, 0.329), hsla(0, 0%, 40%, 0.329), hsla(0, 0%, 14%, 0.329)),url(../img/instalaciones/edificio_uv.jpg); 
+    background: linear-gradient(to right, hsla(0, 0%, 17%, 0.329), hsla(0, 0%, 40%, 0.329), hsla(0, 0%, 14%, 0.329)),url(../img/instalaciones/edificio_uv.jpg); 
+    background-attachment: fixed;
+    
+}
+.main-content-about .textos{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+  
+}
+.main-content-about .textos h2{
+    font-size: 380%;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 3px;
+
+
+  
+}
+.cards{
+    justify-content: center;
+}
+.cards .card{
+    margin-inline-start: 10px;
+    margin-bottom: 10px;
+}
+
+/* https://www.w3schools.com/howto/howto_css_sticky_social_bar.asp */
+.texto-mision{
+    text-align: center;
+}
+.services{
+    text-align: center;
+}
+.areas{
+    text-align: center;
+}
+
+
 
 .name-line{
     background-color: rgba(110,24,63,255);
@@ -79,9 +131,6 @@
     
     }
   
-    .main-content-curses .main-cursos .categorias{
-        display: list-item block;
-    }
     
    
 }

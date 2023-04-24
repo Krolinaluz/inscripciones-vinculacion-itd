@@ -33,14 +33,15 @@
 
             <div class="col-xs-12 col-md-6 col-lg-3">
                 <p class="h4 mb-3 mt-3">Contacto</p>
-                <div class="mb-1">
-                    <p class="h6">unidaddevinculacion@itdurango.edu.mx</p> 
-                </div>
+                
                 <div class="mb-1 ">
                     Oficina: (618)813 55 27
                 </div>
                 <div class="mb-1">
                     WhatsApp: (618)326 45 81
+                </div>
+                <div class="mb-1"  style="font-size: 12px;">
+                    unidaddevinculacion@itdurango.edu.mx
                 </div>
             </div>
             

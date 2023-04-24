@@ -26,7 +26,7 @@
 <body>
     <?php //Encabezado principal para publico en general ?>
     <header>
-        <nav class="navbar navbar-expand-xl " style="background-color: #ffffff;" >
+        <nav class="navbar fixed-top navbar-expand-xl " style="background-color: #ffffff;" >
             <div class="container-fluid ">
 
                 <a class="navbar-brand" href="index.php">
