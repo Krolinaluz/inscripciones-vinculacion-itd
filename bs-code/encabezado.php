@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="https://kit.fontawesome.com/a5f90a0536.css" crossorigin="anonymous">
     <?php //Hoja de estilos ?>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/recuperar_usuarios.css">
 
 
 </head>
@@ -68,18 +70,41 @@
                         <li class="nav-item">
                             <a class="nav-link p-3" href="about_us.php"> Acerca de</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link pt-3 pe-1"  href="#"><i class="fa-solid fa-user fa-xl"></i></i></a>
-                        </li>
+                         <!-- Ap-e    -->
+                         <div class="botton_modal">
+                            <label for="btn-modal">
+                                <i class="fa-solid fa-user fa-xl"></i>
+                            </label>
+                        </div>
+                        
                     </ul>
-
-                    
                 </div>
             </div>
-    
         </nav>
     </header>
-    
+
+    <body>
+        <input type="checkbox" id="btn-modal">
+        <div class="container-modal">
+            <div class="content-modal">
+                <h2>Inicio de sesion</h2>
+                <form method="post" >
+                   <div class="username">
+                       <input type="text"  >
+                       <label> Nombre de usuario</label>
+                    </div>
+                    <div class="username">
+                        <input type="password" >
+                        <label> Contraseña</label>
+                    </div>
+                    <div class="recordar"><a href="recuperar_usuario.php"> ¿Olvido su contraseña?</a></div>
+                    <a href="Inicio_sesion.php"> <input type="submit" value="Iniciar"></a>
+                    <div class="registrarse"> Quiero hacer el <a href="#">registro</a></div>
+                </form>
+            </div>
+            <label for="btn-modal" class="cerrar-modal"></label>
+        </div>
+    </body>
     
     
 
